@@ -7,6 +7,13 @@
   #-Recursão indireta -> Onde a primeira função chama uma segunda função, que por sua vez chama a primeira função novamente
   #-Função recursiva em cauda --> A chamada da recursividade é a ultima instrução a ser executada(Otimizada pelo compudtador) 
   #-Função non-tail recursive --> Qualquer outro caso que nao tenha taile, a chamada da recursividade não é a ultima instrução
+#1.3- Notação Big O estabelece o tempo de execução para pior hipótese
+  #-pesquisa simples tem tempo de execução O(n)  
+  #Pontos a considerar
+  #* A rápidez de um algoritmo não é medida em segundos, mas pelo crescimento do número de operações.
+  #* Em vez disso, discutimos sobre o quão rapidamente o tempo de execução de um algoritmo aumenta conforme o numero de elementos aumenta.
+  #* O tempo de execução em algoritmos é expresso na notação Bio O.
+  #* O (log n) é mais rapído do que O(n), e O(log n) fica ainda mais rapido conforme a lista aumenta
   arr = (0..10000).map{|num| num }
 
   def bsearch(array, num)
