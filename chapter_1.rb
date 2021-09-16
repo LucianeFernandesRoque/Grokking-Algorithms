@@ -13,7 +13,24 @@
   #* A rápidez de um algoritmo não é medida em segundos, mas pelo crescimento do número de operações.
   #* Em vez disso, discutimos sobre o quão rapidamente o tempo de execução de um algoritmo aumenta conforme o numero de elementos aumenta.
   #* O tempo de execução em algoritmos é expresso na notação Bio O.
-  #* O (log n) é mais rapído do que O(n), e O(log n) fica ainda mais rapido conforme a lista aumenta
+  #* O(log n) é mais rapído do que O(n), e O(log n) fica ainda mais rapido conforme a lista aumenta
+   #Exercícios tempo de execução
+  #2.1 O(log n)
+ #2.2 notação de tempo linear O(n)
+ #2.3 O(n)
+
+ # O problema do  cacheiro viajante
+ #caixeiro viajante precisa ir em 5 unidades
+ # para n items, é necessario n!(fatorial de n)
+ # ler sobre arvores binarias de busca
+
+#Recapitulando
+#-A pesquisa bínaria é muito mais rápida do que a pesquisa simples.
+#- O(log n) é mais rápido do que O(n), e O(log n) fica ainda mais rapido conforme os elementos da lista aumentam
+#- A rapidez de um algoritmo não é medida em segundos
+#- O tempo de execução de um algoritmo é medido por meio de seu crescimento.
+#- O tempo de execução dos algoritmos é expresso em notação Big O
+
   arr = (0..10000).map{|num| num }
 
   def bsearch(array, num)
